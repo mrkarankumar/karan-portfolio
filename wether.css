@@ -5,6 +5,8 @@
     border: none;
     outline: none;
     font-family: sans-serif;
+
+    color: white;
 }
 
 body{
@@ -12,13 +14,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    /* background-color: #000; */
+background: url(img1/22222.png);
+background-size: cover;
+background-repeat: no-repeat;
+    
 }
 
 .container{
     width: 400px;
     height: min-content;
-    background-color: #fff;
+
+
+    /* background-color: #fff; */
+
+background: url(/img1/joker.jpg);
+
+box-shadow: inset 5px 5px 8px rgb(51, 51, 53), inset -5px -5px 8px rgb(59, 59, 60);
+
+
+
     border-radius: 12px;
     padding: 28px;
 }
@@ -48,15 +63,15 @@ body{
 .search-box button{
     width: 46px;
     height: 46px;
-    background-color: #e6f5fb;
+    background-color:rgb(234, 193, 10);
     border-radius: 50%;
     cursor: pointer;
     font-size: 20px;
 }
 
 .search-box button:hover{
-    color: #fff;
-    background-color: #ababab;
+    color: hsl(0, 8%, 7%);
+    background-color: #fff;
 }
 
 .weather-body{
